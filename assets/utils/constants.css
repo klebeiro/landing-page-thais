@@ -1,0 +1,42 @@
+:root {
+    --green: #5F6F50;
+    --light-green: #869a74;
+    --light-yellow: #F9EBC7;
+    --brown: #783d19;
+    --light-brown: #C4661F;
+    --background: #FCFAF2;
+}
+
+@font-face {
+    font-family: BodoniFLF;
+    src: url('../fonts/bodoniflf/BodoniFLF-Roman.ttf') format('truetype');
+    font-weight: regular;
+}
+
+@font-face {
+    font-family: Arimo;
+    src: url('../fonts/arimo/Arimo-Regular.ttf') format('truetype');
+    font-weight: regular;
+}
+
+/*
+@font-face {
+    font-family: BodoniFLF;
+    src: url('../fonts/bodoniflf/BodoniFLF-Bold.ttf') format('truetype'),
+    url('../fonts/bodoniflf/BodoniFLF-BoldItalic.ttf') format('truetype'),
+    url('../fonts/bodoniflf/BodoniFLF-Italic.ttf') format('truetype'),
+        url('../fonts/bodoniflf/BodoniFLF-Roman.ttf') format('truetype');
+
+    font-family: Arimo;
+    src: url('../fonts/arimo/Arimo-Bold.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-BoldItalic.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-Italic-VariableFont_wght.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-Italic.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-Medium.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-MediumItalic.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-Regular.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-SemiBold.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-SemiBoldItalic.ttf') format('truetype'),
+    url('../fonts/arimo/Arimo-VariableFont_wght.ttf') format('truetype'),
+}
+*/
