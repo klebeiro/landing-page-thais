@@ -23,7 +23,7 @@ body {
     align-items: center;
     padding: 1rem 1.5rem;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .hamburger {
@@ -402,5 +402,14 @@ footer i {
   .presentation--text p {
     max-width: 80%;
     margin: auto;
-}
+    }
+
+    .navbar {
+        width: 90%;
+    }
+
+    .nav-logo {
+        font-size: 28px;
+    }
+    
 }
