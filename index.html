@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="icon" href="icons/favicon.svg" sizes="any" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="assets/icons/favicon.png" sizes="any" type="image/svg+xml">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Psi Diana Telles</title>
@@ -16,19 +15,19 @@
             <a href="#" class="nav-logo">Psi Diana Telles</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active-nav">Inicio</a>
+                    <a href="#" class="nav-link">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Atuação</a>
+                    <a href="#about" class="nav-link">Sobre mim</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Sobre mim</a>
+                    <a href="#atuation" class="nav-link">Atuação</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Psicoterapia</a>
+                    <a href="#psychotherapy" class="nav-link">Psicoterapia</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contato</a>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5585986470385" class="nav-link">Contato</a>
                 </li>
             </ul>
             <div class="hamburger">
@@ -38,24 +37,108 @@
             </div>
         </nav>
     </header>
-    
-    <div class="container">
-        <section class="presentation">
-            <img src="./assets/images/presentation.png" alt="Foto da Diana Teles">
-            
-            <div class="presentation--text">
-                <h1>Oi! Tudo bom?</h1>
-                <h2>Prazer, me chamo Diana.</h2>
-                <p>Nesse site você vai conhecer um pouco sobre mim, meu percurso pela psicologia e o meu trabalho!</p>
+
+    <section class="presentation">
+        <img src="./assets/images/presentation.png" alt="Foto da Diana Teles">
+        <div class="presentation--text">
+            <h1>Oi! Tudo bom?</h1>
+            <h2>Prazer, me chamo Diana.</h2>
+            <p>Nesse site você vai conhecer um pouco sobre mim, meu percurso pela psicologia e o meu trabalho!</p>
+            <a href="#about" class="presentation--button">Descubra como a psicologia pode mudar sua vida</a>
+        </div>
+    </section>
+
+    <div class="light-section">
+        <section class="content" id="about">
+            <h2>Sobre mim</h2>
+            <ul>
+                <li>
+                    <p>Entrei no curso de psicologia da Universidade Federal do Ceará- Campus Sobral em 2019.</p>
+                </li>
+                <li>
+                    <p>Durante a graduação meus estudos foram voltados às Terapias comportamentais e Psicologia hospitalar.</p>
+                </li>
+                <li>
+                    <p>Fui bolsista do PIBIC por 01 ano pelo Nucleo de Estudos e Pesquisa em Psicologia, Religião e Espiritualidade (NEPPSIREL), o qual dediquei boa parte da minha graduação.</p>
+                </li>
+                <li>
+                    <p>Fui extensionista voluntária da Liga GESTUS Mentis (Grupo de Estudos em Saude Mental Interdisciplinar de Sobral), onde realizei visitas e ações em hospitais da cidade.</p>
+                </li>
+                <li>
+                    <p>Realizei estágios na área da Psicologia Social e Psicologia Clinica, que eram areas do meu interesse.</p>
+                </li>
+                <li>
+                    <p>No começo de 2024 concluí minha graduação em psicologia.</p>
+                </li>
+                <li>
+                    <p>Ainda em 2024 iniciei uma especialização em Terapia Cognitivo Comportamental pela PUC - PR.</p>
+                </li>
+            </ul>
+            <a href="#atuation" class="about--button">Meu trabalho</a>
+        </section>
+    </div>
+
+    <div>
+        <section class="content" id="atuation">
+            <h2>Atuação</h2>
+            <div class="sub-content">
+                <h2>Terapia Cognitivo Comportamental (TCC)</h2>
+                <p>Meu trabalho é embasado nessa teoria da psicologia e vou te explicar um pouco como ela funciona.</p>
             </div>
+            <p>A TCC é uma abordagem psicológica que visa a reestruturação cognitiva, ou seja, ela auxilia a pessoa a compreender como seus pensamentos, comportamentos e emoções estão relacionados e como eles se influenciam em nossas vivencias.</p>
+            <p>Nessa abordagem, valorizamos bastante o vinculo terapêutico e a busca pela autonomia do cliente.</p>
+            <a href="#psychotherapy" class="atuation--button">Saiba mais</a>
+        </section>
+    </div>
+
+    <div class="light-section last">
+        <section class="content" id="psychotherapy">
+            <h2>Psicoterapia</h2>
+            <div class="box-grid">
+                <div class="box online">
+                    <div class="sub-content">
+                        <h2>Online</h2>
+                        <p>Vantagens</p>
+                    </div>
+                    <ul>
+                        <li>Maior flexibilização de horários</li>
+                        <li>Menor custo de deslocamento</li>
+                        <li>Participar das sessões no conforto de casa</li>
+                    </ul>
+                    <p>* É importante estar em um local com privacidade e com internet suficientemente boa.</p>
+                </div>
+                <div class="box">
+                    <div class="sub-content">
+                        <h2>Presencial</h2>
+                    </div>
+                    <div class="sub-content">
+                        <p>Vantagens</p>
+                    </div>
+                    <ul>
+                        <li>Ambiente seguro</li>
+                        <li>Maior proximidade emocional</li>
+                        <li>Menos distrações</li>
+                    </ul>
+                    <div class="sub-content">
+                        <p>Locais</p>
+                    </div>
+                    <p>Em Paracuru, atendo na 
+                        <a class="link" target="_blank" href="https://www.google.com/maps/place/CE-341,+2470+-+Paracuru,+CE,+62680-000/@-3.4396356,-39.0383315,18z/data=!4m6!3m5!1s0x7c0e1ba80d471e5:0x969b21d9dc58b249!8m2!3d-3.4404475!4d-39.0400977!16s%2Fg%2F11gvws1pmw?entry=ttu">MedClinic.</a>
+                    </p>
+                    <p>Em Fortaleza, atendo no 
+                        <a class="link" target="_blank" href="https://www.google.com/maps/place/Av.+Des.+Moreira,+2120+-+Sala+603+-+Aldeota,+Fortaleza+-+CE,+60170-002/@-3.7436954,-38.503622,17z/data=!3m1!4b1!4m6!3m5!1s0x7c7488dff255555:0xfae90e326b1332db!8m2!3d-3.7437008!4d-38.5010471!16s%2Fg%2F11ldl0mv04?entry=ttu">Espaço Elo.</a>
+                    </p>
+                </div>
+            </div>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5585986470385" class="psychotherapy--button">Entrar em contato</a>
         </section>
     </div>
 
     <footer>
         <div class="social-media">
-            <a href="https://wa.me/5511999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://www.instagram.com/seuusuario" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:seuemail@exemplo.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5585986470385" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/dianatelles.psi/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:dianatellespsi@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
         &copy; Diana Telles Sousa | PSICÓLOGA CRP 11/21392
     </footer>

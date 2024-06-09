@@ -1,12 +1,20 @@
 @import url("./assets/utils/reset.css");
 @import url("./assets/utils/constants.css");
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #FCFAF2;
 }
 
 .header{
     border-bottom: 1px solid #E2E8F0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: var(--background);
 }
 
 .navbar {
@@ -14,6 +22,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    width: 80%;
+    margin: auto;
 }
 
 .hamburger {
@@ -27,7 +37,7 @@ body {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: var(--green);;
+    background-color: var(--green);
 }
 
 .nav-menu {
@@ -73,11 +83,6 @@ body {
     background: var(--green);
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-}
-
 .presentation {
     display: flex;
     align-items: center;
@@ -85,17 +90,15 @@ body {
     width: 100%;
     font-family: Arimo;
     margin: 2rem auto;
-    height: 67vh;
 }
 
 .presentation img {
     width: 18rem;
     border-radius: 150px 0;
-    margin: 0 0;
 }
 
 .presentation h1, .presentation h2 {
-    font-size: 24px;
+    font-size: 28px;
     margin: 1rem 0;
     color: var(--green)
 }
@@ -111,11 +114,171 @@ body {
 }
 
 .presentation--text p {
-    margin: .5rem 0;
+    line-height: 1.8;
+}
+
+.presentation--button {
+    background-color: var(--light-yellow);
+    color: var(--green);
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.presentation--button:hover {
+    background-color: var(--light-yellow-hover);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 100%;
+    font-family: Arimo;
+    margin: 2rem auto;
+    width: 80%;
+    min-height: 75vh;
+    padding: 3rem 0;
+}
+
+.light-section {
+    background-color: var(--light-yellow);
+    width: 100%;
+    margin: auto;
+}
+
+.content h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin: 1rem 0;
+    color: var(--green);
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.content ul li {
+    list-style: disc;
+    width: 80%;
+    margin: auto;
+}
+
+.content ol li {
+    list-style: decimal;
+}
+
+.content li {
+    line-height: 1.8;
+}
+
+#atuation p {
+    text-align: center;
+}
+
+.psychotherapy--button {
+    margin-top: 1rem;
+    background-color: var(--green);
+    color: white;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.psychotherapy--button:hover {
+    background-color: var(--light-green);
+}
+
+.atuation--button {
+    background-color: var(--light-yellow);
+    color: var(--green);
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 12px;
+    text-align: center;
+    width: 12rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.atuation--button:hover {
+    background-color: var(--light-yellow-hover);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    border-radius: 8px;
+    padding: 3rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--green);
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.box .sub-content h2 {
+    color :var(--green);
+}
+
+.box ul {
+    margin-left: 1rem;
+}
+
+.box .sub-content h2 {
+    color: black;
+}
+
+.online p {
+    color: var(--light-green);
+}
+
+.link {
+    text-decoration: underline;
+    color: var(--green);
+}
+
+.sub-content h2 {
+    font-size: 22px;
+    color: black;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.sub-content p {
+    text-align: center;
+    color: var(--light-green);
+    line-height: 1.8;
+}
+
+.about--button {
+    margin-top: 1rem;
+    background-color: var(--green);
+    color: white;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 12px;
+    text-align: center;
+    width: 12rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.about--button:hover {
+    background-color: var(--light-green);
 }
 
 footer {
-    font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,7 +299,7 @@ footer a:hover {
 }
 
 .social-media{
-    margin: .8rem;
+    margin: .8rem 0;
 }
 
 footer i {
@@ -176,6 +339,16 @@ footer i {
     
     .presentation p {
         font-size: 16px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .box-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
     
     .nav-menu {
@@ -225,4 +398,9 @@ footer i {
     display: none;
 
   }
+
+  .presentation--text p {
+    max-width: 80%;
+    margin: auto;
+}
 }
