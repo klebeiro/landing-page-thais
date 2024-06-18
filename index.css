@@ -87,14 +87,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    max-width: 64rem;
+    min-height: 75vh;
     font-family: Arimo;
     margin: 2rem auto;
 }
 
 .presentation img {
     width: 18rem;
-    border-radius: 150px 0;
+    border-radius: 180px 0;
 }
 
 .presentation h1, .presentation h2 {
@@ -103,7 +104,7 @@ body {
     color: var(--green)
 }
 
-.presentation h1 {
+.presentation h2 {
     font-size: 40px;
     font-weight: bold;
     font-family: BodoniFLF;
@@ -138,7 +139,7 @@ body {
     width: 100%;
     font-family: Arimo;
     margin: 2rem auto;
-    width: 80%;
+    width: 70%;
     min-height: 75vh;
     padding: 3rem 0;
 }
@@ -147,6 +148,13 @@ body {
     background-color: var(--light-yellow);
     width: 100%;
     margin: auto;
+}
+
+.text h3 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.8;
+    color: var(--green);
 }
 
 .content h2 {
@@ -176,10 +184,10 @@ body {
     line-height: 1.8;
 }
 
-#atuation p {
+.content p {
     text-align: center;
-    max-width: 50rem;
-    margin: .5rem auto;
+    max-width: 48rem;
+    margin: auto;
 }
 
 .psychotherapy--button {
@@ -237,14 +245,6 @@ body {
     margin-left: 1rem;
 }
 
-.box .sub-content h2 {
-    color: black;
-}
-
-.online p {
-    color: var(--light-green);
-}
-
 .link {
     text-decoration: underline;
     color: var(--green);
@@ -252,14 +252,14 @@ body {
 
 .sub-content h2 {
     font-size: 22px;
-    color: black;
+    color: var(--green);
     margin: 0;
     line-height: 1.8;
 }
 
-.sub-content p {
-    text-align: center;
-    color: var(--light-green);
+.box p {
+    text-align: justify;
+    color: black;
     line-height: 1.8;
 }
 
@@ -274,6 +274,7 @@ body {
     width: 12rem;
     margin: 0 auto;
     margin-top: 2rem;
+    line-height: 1.5;
 }
 
 .about--button:hover {
@@ -325,17 +326,19 @@ footer i {
 
     .presentation img {
         width: 12rem;
+        border-radius: 128px 0;
     }
 
     .presentation h2 {
-        font-size: 18px;
+        font-size: 32px;
+        font-weight: bold;
         margin: 1rem 0;
         color: var(--green)
     }
     
     .presentation h1 {
-        font-size: 32px;
-        font-weight: bold;
+        font-size: 24px;
+        font-weight: regular;
         font-family: BodoniFLF;
     }
     
