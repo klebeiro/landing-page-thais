@@ -17,6 +17,10 @@ body {
     background-color: var(--background);
 }
 
+.nav-logo {
+    text-align: center;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
