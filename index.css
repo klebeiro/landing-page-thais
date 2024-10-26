@@ -362,8 +362,8 @@ footer i {
     
     .nav-menu {
         position: fixed;
-        left: -100%;
-        top: 5rem;
+        left: +100%;
+        top: 3.5rem;
         flex-direction: column;
         background-color: #FCFAF2;;
         width: 100%;
@@ -383,7 +383,7 @@ footer i {
     }
     
     .nav-item {
-        margin: 2.5rem 0;
+        margin: 2.63rem 0;
     }
 
     .hamburger {
